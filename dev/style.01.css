@@ -1,0 +1,33 @@
+#app {
+  display: grid;
+
+  grid-template-areas: "input01a button01a button01a"
+                       "input01b button01a button01a"
+                       "input02a button02a button02b"
+                       "input02b button02a button02b";
+grid-template-columns: 2fr 1fr 1fr;
+  /* grid-template-rows: 1fr 2fr; */
+  grid-gap: 1rem;
+}
+
+.grid-input01a {
+  grid-area: input01a;
+}
+.grid-input01b {
+  grid-area: input01b;
+}
+.grid-button01a {
+  grid-area: button01a;
+}
+.grid-input02a {
+  grid-area: input02a;
+}
+.grid-input02b {
+  grid-area: input02b;
+}
+.grid-button02a {
+  grid-area: button02a;
+}
+.grid-button02b {
+  grid-area: button02b;
+}

@@ -1,0 +1,18 @@
+#app {
+  display: grid;
+
+  grid-template-areas: "header header header"
+                       "preamble preamble preamble"
+                       "habitLabel habitLabel habitLabel"
+                       "habitForm habitForm habitForm"
+                       "beginTSLabel beginTSLabel beginTSLabel"
+                       "beginTSOpts beginTSButton beginTSButton"
+                       "beginTSOpts beginTSButton beginTSButton"
+                       "endDTLabel endDTLabel endDTLabel"
+                       "endDTOpts endDTBt1 endDTBt2"
+                       "endDTOpts endDTBt1 endDTBt2"
+                       "submit submit submit";
+grid-template-columns: 2fr 1fr 1fr;
+  /* grid-template-rows: 1fr 2fr; */
+  grid-gap: 1rem;
+}
